@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Circle View Controller-->
+        <scene sceneID="ZRD-XU-wqF">
+            <objects>
+                <viewController storyboardIdentifier="BJCircleViewController" id="sbx-ws-tWK" customClass="BJCircleViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XqR-WL-plc"/>
+                        <viewControllerLayoutGuide type="bottom" id="eLI-Bi-8vr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dbk-Fm-qnc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5qc-i4-xGR"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zaK-bc-vSM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1138" y="381"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="jna-eG-Z4t">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Y3P-Dq-CmV" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ECp-r4-srI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="sbx-ws-tWK" kind="relationship" relationship="rootViewController" id="Ncf-lg-fLt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QQd-KR-mJK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="326" y="381"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hwf-JO-IgF">
+            <objects>
+                <viewController id="SKc-ez-Vk8" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Xp4-S8-S3y"/>
+                        <viewControllerLayoutGuide type="bottom" id="DJg-om-dVG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="R8E-KS-uRK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5gh-X6-t3h">
+                                <rect key="frame" x="0.0" y="64" width="414" height="70"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="hBt-BP-daM"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ftB-tP-Rgn">
+                                <rect key="frame" x="0.0" y="64" width="70" height="70"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="4bb-AA-qGB"/>
+                                    <constraint firstAttribute="width" constant="70" id="Rh8-rT-J1D"/>
+                                </constraints>
+                                <state key="normal" title="头像"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="朱亚宁   全职教练   20个会员" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DIl-OE-3tT">
+                                <rect key="frame" x="75" y="72" width="305" height="26"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="教练等级:✨✨✨✨✨" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yzg-dS-9XK">
+                                <rect key="frame" x="75" y="106" width="215" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5gh-X6-t3h" firstAttribute="leading" secondItem="R8E-KS-uRK" secondAttribute="leading" id="2Tu-rP-oaF"/>
+                            <constraint firstItem="ftB-tP-Rgn" firstAttribute="leading" secondItem="R8E-KS-uRK" secondAttribute="leading" id="6XP-ZJ-vYA"/>
+                            <constraint firstItem="5gh-X6-t3h" firstAttribute="top" secondItem="Xp4-S8-S3y" secondAttribute="bottom" id="A7j-fd-exj"/>
+                            <constraint firstItem="DJg-om-dVG" firstAttribute="top" secondItem="5gh-X6-t3h" secondAttribute="bottom" id="BLZ-wi-uwa"/>
+                            <constraint firstItem="ftB-tP-Rgn" firstAttribute="top" secondItem="Xp4-S8-S3y" secondAttribute="bottom" id="YFy-a5-tiH"/>
+                            <constraint firstAttribute="trailing" secondItem="5gh-X6-t3h" secondAttribute="trailing" id="ayl-tJ-XPB"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="BLZ-wi-uwa"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aQw-QT-aoZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2168" y="170"/>
+        </scene>
+    </scenes>
+</document>

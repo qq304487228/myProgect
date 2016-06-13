@@ -17,6 +17,12 @@
 		9E3FABAF1D0D054C00B7F117 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FABAE1D0D054C00B7F117 /* _____UITests.m */; };
 		9E3FABBE1D0D058400B7F117 /* BJZYNAutoPicTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3FABBD1D0D058400B7F117 /* BJZYNAutoPicTool.m */; };
 		9E3FABC01D0D15FD00B7F117 /* J63MI042Z4P8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E3FABBF1D0D15FD00B7F117 /* J63MI042Z4P8.jpg */; };
+		9EB18ED41D0D56E600FE19D2 /* GooeyCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB18EC91D0D56E600FE19D2 /* GooeyCircle.m */; };
+		9EB18ED51D0D56E600FE19D2 /* Indicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB18ECB1D0D56E600FE19D2 /* Indicator.m */; };
+		9EB18ED61D0D56E600FE19D2 /* KYAnimatedPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB18ECD1D0D56E600FE19D2 /* KYAnimatedPageControl.m */; };
+		9EB18ED71D0D56E600FE19D2 /* KYSpringLayerAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB18ECF1D0D56E600FE19D2 /* KYSpringLayerAnimation.m */; };
+		9EB18ED81D0D56E600FE19D2 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB18ED11D0D56E600FE19D2 /* Line.m */; };
+		9EB18ED91D0D56E600FE19D2 /* RotateRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB18ED31D0D56E600FE19D2 /* RotateRect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +62,18 @@
 		9E3FABBC1D0D058400B7F117 /* BJZYNAutoPicTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJZYNAutoPicTool.h; sourceTree = "<group>"; };
 		9E3FABBD1D0D058400B7F117 /* BJZYNAutoPicTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJZYNAutoPicTool.m; sourceTree = "<group>"; };
 		9E3FABBF1D0D15FD00B7F117 /* J63MI042Z4P8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = J63MI042Z4P8.jpg; sourceTree = "<group>"; };
+		9EB18EC81D0D56E600FE19D2 /* GooeyCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooeyCircle.h; sourceTree = "<group>"; };
+		9EB18EC91D0D56E600FE19D2 /* GooeyCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooeyCircle.m; sourceTree = "<group>"; };
+		9EB18ECA1D0D56E600FE19D2 /* Indicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Indicator.h; sourceTree = "<group>"; };
+		9EB18ECB1D0D56E600FE19D2 /* Indicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Indicator.m; sourceTree = "<group>"; };
+		9EB18ECC1D0D56E600FE19D2 /* KYAnimatedPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYAnimatedPageControl.h; sourceTree = "<group>"; };
+		9EB18ECD1D0D56E600FE19D2 /* KYAnimatedPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYAnimatedPageControl.m; sourceTree = "<group>"; };
+		9EB18ECE1D0D56E600FE19D2 /* KYSpringLayerAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYSpringLayerAnimation.h; sourceTree = "<group>"; };
+		9EB18ECF1D0D56E600FE19D2 /* KYSpringLayerAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYSpringLayerAnimation.m; sourceTree = "<group>"; };
+		9EB18ED01D0D56E600FE19D2 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		9EB18ED11D0D56E600FE19D2 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+		9EB18ED21D0D56E600FE19D2 /* RotateRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateRect.h; sourceTree = "<group>"; };
+		9EB18ED31D0D56E600FE19D2 /* RotateRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateRect.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +131,7 @@
 				9E3FAB901D0D054B00B7F117 /* ViewController.m */,
 				9E3FABBC1D0D058400B7F117 /* BJZYNAutoPicTool.h */,
 				9E3FABBD1D0D058400B7F117 /* BJZYNAutoPicTool.m */,
+				9EB18EC71D0D56E600FE19D2 /* Classes */,
 				9E3FAB921D0D054B00B7F117 /* Main.storyboard */,
 				9E3FAB951D0D054B00B7F117 /* Assets.xcassets */,
 				9E3FAB971D0D054B00B7F117 /* LaunchScreen.storyboard */,
@@ -146,6 +165,25 @@
 				9E3FABB01D0D054C00B7F117 /* Info.plist */,
 			);
 			path = "自动轮播图UITests";
+			sourceTree = "<group>";
+		};
+		9EB18EC71D0D56E600FE19D2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9EB18EC81D0D56E600FE19D2 /* GooeyCircle.h */,
+				9EB18EC91D0D56E600FE19D2 /* GooeyCircle.m */,
+				9EB18ECA1D0D56E600FE19D2 /* Indicator.h */,
+				9EB18ECB1D0D56E600FE19D2 /* Indicator.m */,
+				9EB18ECC1D0D56E600FE19D2 /* KYAnimatedPageControl.h */,
+				9EB18ECD1D0D56E600FE19D2 /* KYAnimatedPageControl.m */,
+				9EB18ECE1D0D56E600FE19D2 /* KYSpringLayerAnimation.h */,
+				9EB18ECF1D0D56E600FE19D2 /* KYSpringLayerAnimation.m */,
+				9EB18ED01D0D56E600FE19D2 /* Line.h */,
+				9EB18ED11D0D56E600FE19D2 /* Line.m */,
+				9EB18ED21D0D56E600FE19D2 /* RotateRect.h */,
+				9EB18ED31D0D56E600FE19D2 /* RotateRect.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,10 +317,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EB18ED61D0D56E600FE19D2 /* KYAnimatedPageControl.m in Sources */,
+				9EB18ED81D0D56E600FE19D2 /* Line.m in Sources */,
 				9E3FAB911D0D054B00B7F117 /* ViewController.m in Sources */,
 				9E3FABBE1D0D058400B7F117 /* BJZYNAutoPicTool.m in Sources */,
 				9E3FAB8E1D0D054B00B7F117 /* AppDelegate.m in Sources */,
 				9E3FAB8B1D0D054B00B7F117 /* main.m in Sources */,
+				9EB18ED41D0D56E600FE19D2 /* GooeyCircle.m in Sources */,
+				9EB18ED51D0D56E600FE19D2 /* Indicator.m in Sources */,
+				9EB18ED91D0D56E600FE19D2 /* RotateRect.m in Sources */,
+				9EB18ED71D0D56E600FE19D2 /* KYSpringLayerAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +552,7 @@
 				9E3FABB51D0D054C00B7F117 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E3FABB61D0D054C00B7F117 /* Build configuration list for PBXNativeTarget "自动轮播图Tests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +561,7 @@
 				9E3FABB81D0D054C00B7F117 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E3FABB91D0D054C00B7F117 /* Build configuration list for PBXNativeTarget "自动轮播图UITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +570,7 @@
 				9E3FABBB1D0D054C00B7F117 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
